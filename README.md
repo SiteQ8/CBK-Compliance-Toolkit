@@ -12,7 +12,7 @@ git clone https://github.com/SiteQ8/CBK-Compliance-Toolkit.git
 cd CBK-Compliance-Toolkit
 
 # View Dashboard
-open [docs/index.html](https://siteq8.github.io/CBK-Compliance-Toolkit/)
+[📖 View Dashboard](https://siteq8.github.io/CBK-Compliance-Toolkit/)
 
 # Or run with Docker
 docker-compose up -d
@@ -27,9 +27,6 @@ docker-compose up -d
 - 📄 PDF/Excel Reports
 - 🐳 Docker Ready
 
-## 📖 Documentation
-
-Open `[docs/index.html](https://siteq8.github.io/CBK-Compliance-Toolkit/)` in your browser for the full dashboard and documentation.
 
 ## 📞 Contact
 
