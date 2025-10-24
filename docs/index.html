@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBK Compliance Toolkit 🇰🇼</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='10.67' fill='%23007A3D'/><rect y='10.67' width='32' height='10.67' fill='%23FFFFFF'/><rect y='21.33' width='32' height='10.67' fill='%23CE1126'/><path d='M 0,0 L 9.6,10.67 L 9.6,21.33 L 0,32 Z' fill='%23000000'/></svg>">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard">
+        <aside class="sidebar">
+            <div class="logo">
+                <div class="logo-icon">🇰🇼</div>
+                <div>
+                    <h1>CBK Toolkit</h1>
+                    <span>Compliance Dashboard</span>
+                </div>
+            </div>
+            <nav class="nav-menu">
+                <a class="nav-item active"><i class="fas fa-chart-line"></i> Dashboard</a>
+                <a class="nav-item"><i class="fas fa-tasks"></i> Assessments</a>
+                <a class="nav-item"><i class="fas fa-clipboard-list"></i> Controls</a>
+                <a class="nav-item"><i class="fas fa-folder-open"></i> Evidence</a>
+                <a class="nav-item"><i class="fas fa-exclamation-triangle"></i> Risks</a>
+                <a class="nav-item"><i class="fas fa-file-pdf"></i> Reports</a>
+            </nav>
+        </aside>
+
+        <main class="main">
+            <header class="header">
+                <div>
+                    <h2>🇰🇼 CBK Compliance Dashboard</h2>
+                    <p class="breadcrumb">Central Bank of Kuwait • Cybersecurity Framework</p>
+                </div>
+                <button class="btn-primary"><i class="fas fa-plus"></i> New Assessment</button>
+            </header>
+
+            <div class="stats">
+                <div class="stat green">
+                    <i class="fas fa-clipboard-check"></i>
+                    <div>
+                        <h3>Overall Compliance</h3>
+                        <p class="value">78.5%</p>
+                        <span class="change">↑ 5.2% improvement</span>
+                    </div>
+                </div>
+                <div class="stat blue">
+                    <i class="fas fa-check-circle"></i>
+                    <div>
+                        <h3>Compliant Controls</h3>
+                        <p class="value">26/33</p>
+                        <span class="change">↑ 2 controls improved</span>
+                    </div>
+                </div>
+                <div class="stat orange">
+                    <i class="fas fa-star"></i>
+                    <div>
+                        <h3>Avg Maturity</h3>
+                        <p class="value">3.4/5</p>
+                        <span class="change">↑ 0.3 improvement</span>
+                    </div>
+                </div>
+                <div class="stat red">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <div>
+                        <h3>Open Findings</h3>
+                        <p class="value">7</p>
+                        <span class="change">↓ 3 resolved</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="charts">
+                <div class="chart">
+                    <h3>Domain Maturity Levels</h3>
+                    <div class="maturity">
+                        <div class="maturity-item">
+                            <span>D1: Governance & Risk</span><strong>4.2/5</strong>
+                            <div class="progress"><div style="width: 84%"></div></div>
+                        </div>
+                        <div class="maturity-item">
+                            <span>D2: Technology & Operations</span><strong>3.8/5</strong>
+                            <div class="progress"><div style="width: 76%"></div></div>
+                        </div>
+                        <div class="maturity-item">
+                            <span>D3: Third-Party Risk</span><strong>2.9/5</strong>
+                            <div class="progress"><div style="width: 58%"></div></div>
+                        </div>
+                        <div class="maturity-item">
+                            <span>D4: Incident Response</span><strong>3.5/5</strong>
+                            <div class="progress"><div style="width: 70%"></div></div>
+                        </div>
+                        <div class="maturity-item">
+                            <span>D5: Payment Systems</span><strong>3.1/5</strong>
+                            <div class="progress"><div style="width: 62%"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart">
+                    <h3>Compliance Status</h3>
+                    <svg viewBox="0 0 200 200" width="180" height="180" style="margin: 20px auto; display: block;">
+                        <circle cx="100" cy="100" r="80" fill="none" stroke="#007A3D" stroke-width="30" 
+                            stroke-dasharray="395 500" transform="rotate(-90 100 100)"/>
+                        <circle cx="100" cy="100" r="80" fill="none" stroke="#f59e0b" stroke-width="30" 
+                            stroke-dasharray="75 500" stroke-dashoffset="-395" transform="rotate(-90 100 100)"/>
+                        <circle cx="100" cy="100" r="80" fill="none" stroke="#CE1126" stroke-width="30" 
+                            stroke-dasharray="33 500" stroke-dashoffset="-470" transform="rotate(-90 100 100)"/>
+                        <text x="100" y="95" text-anchor="middle" font-size="32" font-weight="bold">78.5%</text>
+                        <text x="100" y="115" text-anchor="middle" font-size="12" fill="#666">Compliant</text>
+                    </svg>
+                    <div class="legend">
+                        <div><span style="background: #007A3D"></span> Compliant (26)</div>
+                        <div><span style="background: #f59e0b"></span> Partially (5)</div>
+                        <div><span style="background: #CE1126"></span> Non-Compliant (2)</div>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="footer">
+                <div style="font-size: 24px; margin-bottom: 8px;">🇰🇼</div>
+                <p>Built for Kuwait's Banking Sector • CBK Cybersecurity Framework v1.0</p>
+                <p><a href="https://github.com/SiteQ8/CBK-Compliance-Toolkit">GitHub</a> • 
+                   <a href="mailto:Site@hotmail.com">Site@hotmail.com</a></p>
+            </footer>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

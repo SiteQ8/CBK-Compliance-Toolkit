@@ -1,0 +1,72 @@
+{
+  "framework": {
+    "name": "Central Bank of Kuwait Cybersecurity Framework",
+    "version": "1.0",
+    "release_date": "January 2020"
+  },
+  "domains": [
+    {
+      "id": "D1",
+      "name": "Governance, Risk Management, and Compliance",
+      "controls": [
+        {"id": "D1.C1", "name": "CISO Appointment", "mandatory": true},
+        {"id": "D1.C2", "name": "Cybersecurity Governance Committee", "mandatory": true},
+        {"id": "D1.C3", "name": "Cybersecurity Policy Framework", "mandatory": true},
+        {"id": "D1.C4", "name": "Risk Assessment Process", "mandatory": true},
+        {"id": "D1.C5", "name": "Regulatory Compliance", "mandatory": true},
+        {"id": "D1.C6", "name": "Independent Audit", "mandatory": true},
+        {"id": "D1.C7", "name": "Board Reporting", "mandatory": true}
+      ]
+    },
+    {
+      "id": "D2",
+      "name": "Technology and Operations",
+      "controls": [
+        {"id": "D2.C1", "name": "Network Segmentation", "mandatory": true},
+        {"id": "D2.C2", "name": "Endpoint Protection", "mandatory": true},
+        {"id": "D2.C3", "name": "Intrusion Detection Systems", "mandatory": true},
+        {"id": "D2.C4", "name": "Access Control", "mandatory": true},
+        {"id": "D2.C5", "name": "Security Logging", "mandatory": true},
+        {"id": "D2.C6", "name": "Vulnerability Management", "mandatory": true},
+        {"id": "D2.C7", "name": "Data Encryption", "mandatory": true},
+        {"id": "D2.C8", "name": "Secure Configuration", "mandatory": true}
+      ]
+    },
+    {
+      "id": "D3",
+      "name": "Third-Party and Cloud Risk Management",
+      "controls": [
+        {"id": "D3.C1", "name": "Third-Party Risk Assessment", "mandatory": true},
+        {"id": "D3.C2", "name": "Vendor Due Diligence", "mandatory": true},
+        {"id": "D3.C3", "name": "Cloud Security Controls", "mandatory": true},
+        {"id": "D3.C4", "name": "Service Level Agreements", "mandatory": true},
+        {"id": "D3.C5", "name": "Continuous Vendor Monitoring", "mandatory": true},
+        {"id": "D3.C6", "name": "Data Protection", "mandatory": true}
+      ]
+    },
+    {
+      "id": "D4",
+      "name": "Incident Response and Crisis Management",
+      "controls": [
+        {"id": "D4.C1", "name": "Incident Response Plan", "mandatory": true},
+        {"id": "D4.C2", "name": "Incident Detection", "mandatory": true},
+        {"id": "D4.C3", "name": "Incident Categorization", "mandatory": true},
+        {"id": "D4.C4", "name": "CBK Notification", "mandatory": true},
+        {"id": "D4.C5", "name": "Recovery Procedures", "mandatory": true},
+        {"id": "D4.C6", "name": "Tabletop Exercises", "mandatory": true},
+        {"id": "D4.C7", "name": "Lessons Learned", "mandatory": true}
+      ]
+    },
+    {
+      "id": "D5",
+      "name": "Electronic Payment Systems Security",
+      "controls": [
+        {"id": "D5.C1", "name": "Payment Channel Security", "mandatory": true},
+        {"id": "D5.C2", "name": "Transaction Monitoring", "mandatory": true},
+        {"id": "D5.C3", "name": "SWIFT CSCF Alignment", "mandatory": true},
+        {"id": "D5.C4", "name": "Payment Authentication", "mandatory": true},
+        {"id": "D5.C5", "name": "Payment System Segregation", "mandatory": true}
+      ]
+    }
+  ]
+}
