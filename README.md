@@ -1,11 +1,11 @@
-# CBK Compliance Toolkit 🇰🇼
+# CBK Compliance Toolkit
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
 **End-to-End CBK Cybersecurity Framework Assessment & Compliance Automation for Kuwait Banking Sector**
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 git clone https://github.com/SiteQ8/CBK-Compliance-Toolkit.git
@@ -18,19 +18,17 @@ cd CBK-Compliance-Toolkit
 docker-compose up -d
 ```
 
-## ✨ Features
+## Features
 
-- 🇰🇼 Built for Kuwait Banking Sector
-- 📊 Interactive Dashboard in `/docs`
-- 🔍 33 CBK Controls Automated
-- 📈 5-Level Maturity Scoring
-- 📄 PDF/Excel Reports
-- 🐳 Docker Ready
+- Built for Kuwait Banking Sector
+- Interactive Dashboard in `/docs`
+- 33 CBK Controls Automated
+- 5-Level Maturity Scoring
+- PDF/Excel Reports
+- Docker Ready
 
 
-## 📞 Contact
+## Contact
 
 - GitHub: @SiteQ8
 - Email: Site@hotmail.com
-
-**Made with ❤️ for Kuwait** 🇰🇼
